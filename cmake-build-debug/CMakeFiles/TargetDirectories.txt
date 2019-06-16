@@ -1,0 +1,3 @@
+/Users/gexin/ClionProjects/co-mobile/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gexin/ClionProjects/co-mobile/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gexin/ClionProjects/co-mobile/cmake-build-debug/CMakeFiles/co_mobile.dir

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gexin/ClionProjects/co-mobile/inc/Nanomachine.h
+string
+-
+ostream
+-
+
+/Users/gexin/ClionProjects/co-mobile/inc/aux.h
+
+/Users/gexin/ClionProjects/co-mobile/src/main.cpp
+iostream
+-
+../inc/Nanomachine.h
+/Users/gexin/ClionProjects/co-mobile/inc/Nanomachine.h
+../inc/aux.h
+/Users/gexin/ClionProjects/co-mobile/inc/aux.h
+cstdlib
+-
+cstdio
+-
+unistd.h
+-
+algorithm
+-
+vector
+-
+cmath
+-
+
