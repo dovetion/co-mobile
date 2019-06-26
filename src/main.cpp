@@ -14,7 +14,7 @@ using namespace std;
 
 int B_timeout = 10;
 int now = 0;
-const int num_nanomachine = 1000;
+const int num_nanomachine = 10;
 const bool is_comobile = false;
 const int max_time = 20000;
 double target_area = 30.0;
@@ -125,7 +125,7 @@ void collect() {
     if (reached_num)
         printf("[INFO] average reach time is [%05d]\n", allReachTime / reached_num);
     else
-        printf("[INFO] average reach time is [0.00000%]\n");
+        printf("[INFO] average reach time is [0.00000]\n");
 
     // output the trace for each nanomachine
     string out = getCurrentTimeStr();
