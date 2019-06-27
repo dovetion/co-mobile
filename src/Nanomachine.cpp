@@ -20,7 +20,6 @@ extern int now;
 
 const double time_losing_factor = 1.0;
 const double dist_losing_factor = 1.0;
-const double delta_step = 2.0;
 const double dist_threashold = 50.0;
 const double single_step = 1.0;
 const double A_threashold = A_CONCENTRATION_MAX / 700.0;
@@ -87,8 +86,8 @@ void Nanomachine::move() {
     else if (C_A > 0.0 && C_A < A_threashold && C_B < B_threashold) {
         this->type = RANDOMWALK;
         this->angle += rand_double(-PI / direction_coe, PI / direction_coe);
-        X += delta_step * cos(this->angle);
-        Y += delta_step * sin(this->angle);
+        X += single_step * cos(this->angle);
+        Y += single_step * sin(this->angle);
     }
 
 
